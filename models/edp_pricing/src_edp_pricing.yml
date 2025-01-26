@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: microdbdev_edp_stay
+    database: microdbdev
+    #database: microdbuat
+    schema: edp_stay
+    tables:
+    - name: rate_plan
+    - name: room_type
